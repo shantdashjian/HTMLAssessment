@@ -13,8 +13,11 @@ table {
     text-align: center;
 }
 
-#teamRoster {
+ul>li {
     list-style: square;
+}
+
+#teamRoster {
     display: inline-block;
 }
 
@@ -36,6 +39,6 @@ blockquote {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
 }
 
-#checkbox-grid {
+#checkbox-grid li {
     list-style: none;
 }
